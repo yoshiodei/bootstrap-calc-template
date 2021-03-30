@@ -1,0 +1,39 @@
+.row {
+    height: 10vh;
+    font-size: 3rem;
+    
+}
+
+.pt-5 {
+    padding-top: 50px;
+}
+
+.row:first-child {
+    background: darkgrey;
+    color: white;
+}
+
+div{
+    font-weight: bold;
+}
+
+.row:not(.first) {
+    background: #eee;
+}
+
+.row:not(.first) div:last-child {
+    background-color: orange;
+    color: white;
+    
+}
+
+div[class|="col-md"] {
+    padding-top: 15px;
+    border-top: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+    height: 100%;
+}
+
+.row div:first-child{
+    border-left: none;
+}
